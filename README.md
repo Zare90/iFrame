@@ -1,16 +1,16 @@
-# Module: iFrame
-The `iFrame` module is for MagicMirror. It is a simple way to add an iFrame of any web content to your [MagicMirror](https://github.com/MichMich/MagicMirror).
-## Using the module
+# Modul: iFrame
+Das iFrame Modul wird benötigt um beliebige Webinhalte auf dem iMirror anzuzeigen. Wie z.B. Videos, Karten uvm.
+## Verwendung des Moduls
 
-To use this module, add it to the modules array in the `config/config.js` file:
+Um disese Modul zu verwenden muss folgender Code in `config/config.js` eingefügt werden:
 ````javascript
 modules: [
 	{
 		module: 'iFrame',
-		position: 'bottom_bar',	// This can be any of the regions.
+		position: 'bottom_bar',	// Dies kann eine beliebige Position sein.
 		config: {
-			// See 'Configuration options' for more information.
-				url: "ENTER IN URL"
+			// Siehe Einstellungs Optionen für weitere Informationen.
+				url: "Hier URL einfügen"
 				width: "100%" // Optional. Default: 100%
 				height: "100px" //Optional. Default: 100px
 			}
@@ -19,7 +19,7 @@ modules: [
 ]
 ````
 
-## Configuration options
+## Einstellungs Optionen
 
 The following properties can be configured:
 
